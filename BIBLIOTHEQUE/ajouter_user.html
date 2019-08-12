@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>Bibliotheques ESSTT</title>
+<style type="text/css" >
+@charset "utf-8";
+body {
+	background-color: #FFFFCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+}
+
+td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #330000;
+}
+
+a {
+	color: #330000;
+}
+
+form {
+	background-color: #CCCC99;
+}
+
+.title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 30px;
+  background-color: #990000; color: #FFFF66;
+}
+
+.subtitle {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+  color: #660000; font-style: oblique;
+}
+
+.header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	background-color: #990000;
+  color: #FFFF66;
+}
+
+.nav {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #CCCC66;
+}
+
+.navLink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #DEDECA;
+}
+a:hover {
+	color: #DEDECA;
+	background-color: #330000;
+}
+
+.sidebar {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 3px;
+	background-color: #FFFF99;
+}
+
+.sidebarHeader {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFF99;
+	background-color: #999933;
+ font-weight: bold;
+}
+
+.sidebarFooter {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 18px;
+	background-color: #FFFF99;
+ color: #990000;
+}
+
+.footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 22px;
+	color: #333333;
+	background-color: #FFFF99;
+}
+
+.legal {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #333333;
+}
+
+.box1 {
+	border-width: 2px;
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+  border-style: dotted;
+	}
+
+.promo {
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+}
+
+.titlebar {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	background-color: #336699;
+}
+
+.dingbat {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #CCCC99;
+ color: #660000; font-weight: bolder; font-size: medium;
+}
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}
+
+
+</style>
+</head>
+<body>
+<center>
+<h1>Biliotheque ESSTT</h1>
+<div><h2>Ajouter lecter</h2> 
+<form name="insertion" action="insertion_user.php" method="POST">
+  <table width="401" border="0" align="center" cellpadding="2" cellspacing="2">
+    <tr align="center">
+      <td width="87">Nom</td>
+      <td width="178"><input type="text" name="nom"></td>
+    </tr>
+    <tr align="center">
+     
+      <td>Prenom</td>
+      <td><input type="text" name="prenom"></td>
+    </tr>
+    <tr align="center">
+      <td>Adresse</td>
+      <td><input type="text" name="address"></td>
+    </tr>
+    <tr align="center">
+      <td>Date naissance</td>
+      <td><input type="text" name="ddn" value="2000-01-01"></td>
+    </tr>
+	  <tr align="center">
+      <td>login</td>
+      <td><input type="text" name="login"></td>
+    </tr>
+    <tr align="center">
+      <td>Mots de passe</td>
+      <td><input type="text" name="pwd"></td>
+    </tr>
+    <tr align="center">
+      <td colspan="2"><input type="submit" value="Inserer"><input type="reset" value="Annuler">
+      <a href='administrator.php'>
+	  <input type="Button" value="Retour">
+      </a>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
